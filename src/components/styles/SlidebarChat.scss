@@ -1,0 +1,17 @@
+.slidebarChat {
+  display: flex;
+  cursor: pointer;
+  padding: 15px;
+  border-bottom: 1px solid var(--light);
+  &:hover {
+    background-color: var(--light);
+  }
+}
+
+.slidebarChat__info {
+  margin-left: 15px;
+  > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
