@@ -7,7 +7,7 @@
 .slidebar__header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: var(--padding-xs);
   border-right: 1px solid var(--white);
 }
 .slidebar__headerRight {
