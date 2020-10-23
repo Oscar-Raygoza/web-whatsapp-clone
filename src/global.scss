@@ -4,7 +4,7 @@
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: blue orange;
+  scrollbar-color: var(--active) var(--chat);
 }
 
 *::-webkit-scrollbar {
