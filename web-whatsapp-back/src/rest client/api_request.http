@@ -1,0 +1,16 @@
+
+//* asana requests *//
+
+// @GET ROUTES
+
+### Index Get API
+GET http://localhost:3005/
+
+### Create a new message
+POST http://localhost:3005/api/v1/messages/new HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "oscarRaygoza",
+  "message": "que vamos a hacer hoy ?"
+}
